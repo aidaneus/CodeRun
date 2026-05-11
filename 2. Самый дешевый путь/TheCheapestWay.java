@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.util.Arrays;
 
 class TheCheapestWay {
     public static void main(String [] args) {
@@ -24,7 +23,6 @@ class TheCheapestWay {
                     matrix[i][j] = Integer.parseInt(nums[j]);
                 }
             }
-            System.out.println(Arrays.deepToString(matrix));
         } catch (IOException e) {
             System.err.println("Ошибка чтения: " + e);
         }
